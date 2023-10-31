@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-    background-image: url(Cerdo.jpg);
+    background-image: url(canva.png);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,35 +38,223 @@ body {
     z-index: 1000;
 }
 .logo{
-    color: blue;
+    color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: 800;
 }
-.menu .navbar ul li a{ 
+.menu .navbar ul li { 
     position:relative;
     float: left;
 }
 .menu .navbar ul li a{
     font-size: 18px;
     padding: 20px;
-    color: blue;
-    
+    color: white;
     font-weight: 600;
-}
-#menu {
-    display: none;
-}
-.menu.icono{
-width: 25px;
-}
-.menu label {
-    cursor: pointer;
+    display: block;
+    margin-top: 10px;
 }
 
-.header.txt {
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+    
+}
+.header-txt h1 {
+    font-size: 45px;
+   color: white;
+   text-transform: uppercase;
+   margin-top: 250px;
+}
+.header-txt p {
+    color: rgb(190, 188, 151);
+    font-size: 16px;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+.btn-1{
+    display: inline block;
+    padding: 12px 45px;
+    border: 1x solid whitesmoke;
+    color: aliceblue;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn-1:hover {
+    color: beige;
+    background-color:rgb(160, 160, 160) ;
+}
+.general {
+    padding: 50px 0;
     text-align: center;
 }
-.header.txt h1 {
-    font-size: 85px;
-    color: black;
+.general-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
 }
+
+.general-1 {
+    background-image: url(money.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+.general-2 {
+    background-image: url(money.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 30px;
+}
+.general-3 {
+    background-image: url(money.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+    border: 1px solid red;
+}
+.h2{ 
+    font-size: 70px;
+    text-transform: uppercase;
+    color: bisque;
+}
+.txt h3 {
+    font-size: 18px;
+    color: antiquewhite;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.txt p{
+    color: #ebebee;
+    font-size: 16px;
+}
+.info-1 {
+    padding: 250px 250px;
+    background-image: url(money.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.info-content {
+    text-align: center;
+}
+.info-content h2 span{
+    color: white;
+}
+.info-circle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+.circle-txt {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+}
+.circle-1 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 35px;
+}
+.circle-1 h3 {
+    color: #ebebee;
+    font-size: 16px;
+}
+.circle-txt p{
+    color: #ebebee;
+    margin-top: 25px;
+}
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(../Image/background-footer.svg);
+    background-size: cover;
+    margin-bottom: auto;
+
+ /*background-color: #d0f0f8;
+    -webkit-mask-image: url("../Images/background-footer.svg");
+    mask-image: url("../Images/background-footer.svg");
+    -webkit-mask-size: cover;
+    mask-size: cover;*/
+}
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+
+
