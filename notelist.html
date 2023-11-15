@@ -1,29 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+   
 <meta charset="utf-8">
 <meta name="keywords" content="economia, youneconomy, jovenes, finanzas">
 <meta name="description" content="Pagina de YoungEconomy">
 <link rel="stylesheet" href="style.css">
-<meta name="viewport" content="width=device-width">
 <script src="https://kit.fontawesome.com/b6f07b3e0d.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO DO LIST</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  
 </head>
 
 <body>
+    <!---aqui comienza mi navbar-->
+    <header>
+<div class="">
+    
+    <nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Notelist</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Calendar</a></li>
+        <li><a href="#">Login</a></li>
+    </ul>
+    </nav>
+</div>
+    </header>
 
-    <section>
+<!--notelist de prueba-->
+<section>
+  <div class="container">
     <h1>Notelist</h1>
-<input type="text" id="tarea">
-<button id="agregar">Agregar</button>
-
-<h3>Tareas: <span id="cantidad">0</span></h3>
-
-<ul id="listado">
-</ul>
+    <div class="input-container">
+      <input class="todo-input" placeholder="Add a new task...">
+      <button class="add-button">
+        <i class="fa fa-plus-circle"></i>
+      </button>
+    </div>
+    <div class="filters">
+      <div class="filter" data-filter="completed">Complete</div>
+      <div class="filter" data-filter="pending">Incomplete</div>
+      <div class="delete-all">Delete All</div>
+    </div>
+    <div class="todos-container">
+      <ul class="todos"></ul>
+      <img class="empty-image" src="fondofinanzas.jpg">
+    </div>
+  </div>
 </section>
 
-    <footer class="pie-pagina">
+
+        <!--Notelist-->
+   
+
+<!--parte del footer-->
+<footer class="pie-pagina">
     <div class="grupo-1">
         <div class="box">
             <figure>
@@ -34,8 +71,9 @@
         </div>
         <div class="box">
             <h2>ABOUT US</h2>
-           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, vero?</p>
-           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, vero?</p>
+           <p>Te damos la bienvenida a YoungEconomy, nuestro objetivo es ayudar a los jovenes a lograr la tan aclamada libertad financiera.</p>
+           <p>Correo empresarial: youngeconomycontact@gmail.com <p>Número de contacto: 6783-7342</p>
+             </p>
 
         </div>
         <div class="box">
@@ -53,7 +91,6 @@
         <small>&copy; 2023 <b>YoungEconomy</b> - Todos los derechos reservados.</small>
     </div>
 </footer>
-
 
 <script src="script.js"></script>
 </body>
